@@ -115,53 +115,11 @@ SL(2,ℤ) invariance verified (T, S, TST transforms), supporting automorphic sym
 
 Optimized Laplacian residual MSE reduced from 114k to ~46 with 10-dimensional Hecke tuning.
 
-🚀 How to Run
-Clone this repo
-
-bash
-复制
-编辑
-git clone https://github.com/yourname/LANDS.git
-cd LANDS
-Install dependencies
-
-bash
-复制
-编辑
-pip install numpy scipy matplotlib sympy
-Run validation script
-
-bash
-复制
-编辑
-python3 L.py  # Validates λ(p)^2 vs Tr(ρ)^2
 
 
 📄 https://zenodo.org/records/15379287
 
-📘 Appendix Collection
 
-🖼️ Diagrams: see /figures
-
-⚠️ Limitations
-Galois representation ρ is spectral, not arithmetic
-
-No D-module or cohomological π ↔ ρ correspondence (yet)
-
-Zero alignment MSE ≈ 129 (improvable)
-
-Frobenius trace integer match only ~25%
-
-See Appendix Q for full discussion.
-
-🌱 Future Work
-Embed ψ(t) into ℓ-adic cohomology
-
-Define D-module and Hecke eigensheaf over Bun_G
-
-Connect to known modular forms (LMFDB)
-
-AI-based Hecke coefficient reverse engineering
 
 📜 License
 MIT License. Free for academic and educational use.
