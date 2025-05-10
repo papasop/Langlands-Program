@@ -134,19 +134,9 @@ Run validation script
 bash
 复制
 编辑
-python3 y.py  # Validates λ(p)^2 vs Tr(ρ)^2
-📊 Outputs
-Λ(s) plot with zero candidates
+python3 L.py  # Validates λ(p)^2 vs Tr(ρ)^2
 
-Frobenius trace reconstruction error metrics
 
-Point count prediction comparison
-
-Laplacian residual heatmaps
-
-Hecke coefficient optimization results
-
-📚 Paper and Documentation
 📄 https://zenodo.org/records/15379287
 
 📘 Appendix Collection
